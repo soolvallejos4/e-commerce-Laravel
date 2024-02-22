@@ -1,0 +1,19 @@
+Carrera: Diseño y Desarrollo Web
+Materia: Portales y Comercio Electrónico
+Cuatrimestre: 4to
+Año: 2023
+Turno: Noche
+Comisión: DWN4AV
+Carácter de entrega: final
+
+Alumo 1:
+Apellido: Sartori 
+Nombre: Nicolás
+
+Alumo 2:
+Apellido: Vallejos 
+Nombre: Sol
+
+Docente: Gallino Santiago
+Carácter de Entrega: Segundo Parcial
+

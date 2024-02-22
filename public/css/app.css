@@ -1,0 +1,232 @@
+/* PALETA DE COLORES 
+#443850
+#7D8491
+#C0C5C1
+#EAF0CE
+#BBBE64
+https://coolors.co/bbbe64-eaf0ce-c0c5c1-7d8491-443850
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;600&family=Montserrat:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+#app {
+    display: grid;
+    grid-template-rows: 46px 1fr 75px;
+}
+
+h1 {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    color: white;
+    background-color: #443850
+}
+
+.navbar {
+    background-color: #443850;
+
+}
+
+.nav-link-text {
+    white-space: nowrap;
+}
+
+.card-body img {
+    max-width: 20%;
+}
+
+.form {
+    max-width: 500px;
+    padding: 2rem 1em;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+}
+
+input {
+
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+
+
+}
+
+select {
+    width: 50%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+}
+
+.button-ingresar {
+    font-size: 1rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 70%;
+    background: #443850;
+    color: white;
+
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 20%;
+    background: #443850;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 !important;
+}
+
+.boton {
+    font-size: 1rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 60%;
+    background: #443850;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 !important;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+input:focus {
+    border: 1px solid rgb(192, 192, 192)
+}
+
+.terminos a {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+}
+
+.terminos input {
+    width: 10%;
+}
+
+.registro-existente {
+    font-size: 1rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 70%;
+    background: #7D8491;
+    color: white;
+}
+
+.registro-existente a:hover {
+    color: #443850 !important;
+}
+
+#banner {
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#banner h2 {
+    font-family: 'Yellowtail', cursive !important;
+    font-size: 7em;
+    color: #443850;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 !important;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    height: max-content;
+
+}
+
+#beneficios .card , #news .card , #products .card{
+    width: 18 rem;
+}
+
+#principiantes {
+    background-image: url("../img/wave.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+span {
+    font-weight: 600;
+    color: #443850
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.alert {
+    margin-top: 2rem;
+}
+.boton-reserva {
+    width: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        height: max-content;
+    }
+
+    .navbar-collapse {
+        background-color: #443850;
+    }
+
+    #products,
+    #news {
+        margin-top: 200px;
+        /* Cambia este valor según tus necesidades */
+    }
+
+}
